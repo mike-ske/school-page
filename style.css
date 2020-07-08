@@ -1,0 +1,87 @@
+body {
+    background-color: white;
+    margin: 0px;
+    background: url(img/001..jpg);
+    background-size: cover;
+   
+    
+}
+.main, .search {
+    margin-top: 10px !important;
+    position: relative;
+    left: 10px;
+    width: 200%;
+}
+.search, .btn-search{
+    margin-right: 0px !important;
+}
+
+.btn {
+    width: 180px;
+}
+.sub-main {
+    width: 35em;
+    height:auto;
+    position: relative;
+    top: 20px;
+    left: 28%;
+    padding: 40px;
+    display: block;
+    background-color: rgba(241, 241, 241, 0.56);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+
+.head, h2  {
+    text-align: center;
+    font-weight: 300;
+    
+}
+.head {
+    margin: 10px;
+    padding: 10px;
+}
+.form-group {
+    margin-bottom: 20px !important;
+}
+label {
+    margin-bottom: 18px !important;
+}
+.base-button {
+    margin-top: 20px;
+    align-content: center;
+}
+.btn-base {
+    margin-bottom: 20px !important;
+    width: 8em !important;
+    margin-left: 10px;
+}
+@media only screen and (max-width: 500px){
+
+    .main {
+        max-width: 100%;
+    }
+    .sub-main{
+        position: relative;
+        top: 20px;
+        left: 0px;
+        margin-left: 0px;
+        width: 28em;
+        height: auto;
+    }
+    body {
+        background-size: 500px 100em;
+        background-repeat: no-repeat;
+        background-image: url(img/002.jpg);
+    }
+    .btn-base {
+        margin-bottom: 0px !important;
+        width: 100% !important;
+        margin-left: 0px;
+    }
+    .base-button {
+        margin-top: 0px;
+        align-content: center;
+    }
+}
