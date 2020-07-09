@@ -68,7 +68,7 @@ label {
         top: 20px;
         left: 0px;
         margin-left: 0px;
-        max-width: 200px;
+        width: 28em;
         height: auto;
     }
     body {
@@ -86,3 +86,33 @@ label {
         align-content: center;
     }
 }
+
+@media only screen and (max-width: 350px){
+
+    .main {
+        max-width: 100%;
+    }
+    .sub-main{
+        position: relative;
+        top: 20px;
+        left: 0px;
+        margin-left: 0px;
+        width: 20em;
+        height: auto;
+    }
+    body {
+        background-size: 500px 100em;
+        background-repeat: no-repeat;
+        background-image: url(img/002.jpg);
+    }
+    .btn-base {
+        margin-bottom: 0px !important;
+        width: 100% !important;
+        margin-left: 0px;
+    }
+    .base-button {
+        margin-top: 0px;
+        align-content: center;
+    }
+}
+
