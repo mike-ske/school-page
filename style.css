@@ -3,6 +3,7 @@ body {
     margin: 0px;
     background: url(img/001..jpg);
     background-size: cover;
+    background-repeat: no-repeat;
    
     
 }
@@ -57,7 +58,7 @@ label {
     width: 8em !important;
     margin-left: 10px;
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 350px){
 
     .main {
         max-width: 100%;
