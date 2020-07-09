@@ -58,7 +58,7 @@ label {
     width: 8em !important;
     margin-left: 10px;
 }
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 500px){
 
     .main {
         max-width: 100%;
@@ -68,7 +68,7 @@ label {
         top: 20px;
         left: 0px;
         margin-left: 0px;
-        max-width: 35em;
+        max-width: 200px;
         height: auto;
     }
     body {
